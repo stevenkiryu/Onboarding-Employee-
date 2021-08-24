@@ -5012,15 +5012,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Testing Email",
       "projectName": "Testing Email",
-      "projectPath": "C:\\Users\\Admin\\Documents\\UiPath\\Testing Email\\.local",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\UiPath\\Testing Email\\.local"
+      "projectPath": "C:\\Users\\user\\OneDrive\\Documents\\UiPath\\Testing Email\\.local",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\OneDrive\\Documents\\UiPath\\Testing Email\\.local"
     },
     "frameworks": {
       "net461": {
@@ -5046,7 +5046,7 @@
             "version": "[21.4.4, 21.4.4]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\user\\AppData\\Local\\UiPath\\app-21.4.4\\runtime.json"
       }
     }
   }
