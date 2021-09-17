@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gIqusfQDVaKbWoJL5V6qjEwcDhJeS1VSCDywK5H/9ZEa22M0YiNIS1f4C/xP6OTDyEI+bUqedh+Bex56kQoVxg==",
+  "dgSpecHash": "2y/JVldXrHXMqBkIffC6HgDTrs8oGrWG3rLuoTLtVbGNygh3mnDHCjBqAEAbS2n9q8dPqhuMnCiMrvHH9JE9Bg==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\OneDrive\\Documents\\UiPath\\Process 2\\.local\\",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\accesa.imageconverter.activities\\2.0.0\\accesa.imageconverter.activities.2.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\documentformat.openxml\\2.5.0\\documentformat.openxml.2.5.0.nupkg.sha512",
@@ -47,6 +48,8 @@
     "C:\\Users\\user\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.io.abstractions\\3.0.10\\system.io.abstractions.3.0.10.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.io.pipelines\\4.7.1\\system.io.pipelines.4.7.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.management.automation\\6.1.7601.17515\\system.management.automation.6.1.7601.17515.nupkg.sha512",
@@ -70,5 +73,18 @@
     "C:\\Users\\user\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.4\\uipath.uiautomation.activities.21.4.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\uipath.vision\\3.0.1\\uipath.vision.3.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\user\\OneDrive\\Documents\\UiPath\\Process 2\\.local",
+      "message": "Accesa.ImageConverter.Activities 2.0.0 depends on System.Drawing.Common (>= 4.5.1) but System.Drawing.Common 4.5.1 was not found. An approximate best match of System.Drawing.Common 5.0.0 was resolved.",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win7-x86"
+      ]
+    }
+  ]
 }

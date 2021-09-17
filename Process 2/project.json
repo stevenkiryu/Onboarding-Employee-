@@ -3,6 +3,7 @@
   "description": "Process 2 cek outlook email , download file , delay etc",
   "main": "Main.xaml",
   "dependencies": {
+    "Accesa.ImageConverter.Activities": "[2.0.0]",
     "UiPath.Excel.Activities": "[2.10.4]",
     "UiPath.Mail.Activities": "[1.10.5]",
     "UiPath.System.Activities": "[21.4.1]",
